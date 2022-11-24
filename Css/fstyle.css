@@ -1,0 +1,70 @@
+.form{
+    border: 6px solid rgb(22, 22, 57);
+    border-color: gray;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    height: 400px;
+    padding-left:30px;
+    padding-right:90px;
+    margin:90px ;
+}
+
+.fb{
+    font-family:verdana;
+    color: #3b5998;
+    font-size: 30px;
+    text-align:center;
+    font-style: bold;
+    font-weight: bolder;
+    padding-left: 39px;
+    padding-bottom: 30px;
+}
+.bor{
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 229px;
+    height: 30px;
+    background-color: rgba(132, 132, 132, 0.469);
+}
+
+.bor1{
+        border: 1px solid;
+        border-radius: 3px;
+        width: 229px;
+        height: 30px;
+        background-color: rgb(26, 38, 201);
+        color: white;
+        text-align: center;
+}
+.bor2{
+    border: 1px solid;
+    border-radius: 3px;
+    width: 229px;
+    height: 30px;
+    background-color: rgb(26, 201, 46);
+    color: white;
+    text-align: center;
+}
+
+.fp{
+    color: rgba(13, 128, 228, 0.879);
+    padding-left:51px;
+    text-decoration: underline;
+    font-family: arial;
+}
+
+.p1{
+    width: 231px;
+    text-align: center;
+    padding: left 1px;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 20px 0 20px; 
+}
+p span{
+    background: #fff;
+    padding: 0 9px;
+}
+

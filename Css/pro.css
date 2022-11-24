@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    background-color: gray;
+    font-size: 12px;
+    padding: 12px;
+    padding-left: 90px;
+    color: white;
+}
+
+.lb{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.rb{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+.block{
+    padding: 15px;
+    background-color: dodgerblue;
+    text-align: center;
+    color: white;
+    margin: 0 0 5px 0;
+}
+
+.foot{
+    background-color: gray;
+    font-size: 50px;
+    padding: 25px;
+    color: white;
+    font-size: 30px;
+    clear: both;
+    
+}
