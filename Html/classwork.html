@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body class="body">
+	<style type="text/css">
+		.audio{
+			border:solid white;
+			border-radius: 100px;
+			background-color: rgb(126,166,184);
+			margin-right: 500px;
+			margin-left: 535px;
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-left: 5px;
+			width: max-content;
+		}
+		.form{
+			border: 5px solid rgba(255,255,255,.5);
+			border-radius: 10px;
+			background-color: rgb(240, 210, 208);
+			padding: 30px
+			;
+			width: 200px;
+			margin:90px ;
+			margin-left: 90px;
+		}
+		.a2{
+			border: solid grey;
+			border-radius: 4px;
+		}
+		.s{
+			color: black;
+			font-size: 30px;
+			font-family: Verdana;
+		}
+		.h1{ 
+			color: white;
+			position: absolute;
+			top: 100px;
+			right: 100px;
+			font-size: 60px;
+			font-family: Verdana;
+		}
+		.body{
+			background-image: url(../Image/japan.jpeg);
+			background-attachment: fixed;
+ 			background-size:cover;
+		}
+		.submit{
+				background-color: rgb(255, 255, 255);
+				color: rgb(110, 73, 73);
+				text-align: center; 
+				font-style: bold; 
+				font-size: 30px;
+				padding: 4px;
+				border: 2px solid rgb(86, 33, 34);
+				border-radius: 10px;
+		}
+	</style>
+
+	<div class="audio">
+		<audio style="border-radius:100px" controls loop autoplay muted>
+			<source src="/Users/chideraonwusor/Music/audio/02 Alec Benjamin - Water Fountain.mp3" type="audio/mp3">
+		</audio>	
+	</div>
+	
+	<div class="form">
+	<form>
+		<center><label class="s" style="color :rgb(110, 73, 73)">Sign Up</label><br><br></center>
+		<input type="text" class="a2" placeholder="Name"><br><br>
+		<input type="text" class="a2" placeholder="Username"><br><br>
+		<input type="text" class="a2" placeholder="Email"><br>
+		<input type="text" class="a2" placeholder="Password"><br><br>
+		<input type="text" class="a2" placeholder="Confirm Password"><br><br>
+		<center>
+			<input type="submit" class="submit"	 value="Sign Up" class="a2" placeholder="Sign Up" >
+		</center>
+	</form>
+	</div>
+	
+ 	<span class="h1">Sign up to win a trip <br>to Japan!!!</span>
+</body>
+</html>

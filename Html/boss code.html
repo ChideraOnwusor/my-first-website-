@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../Icons/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://kit.fontawesome.com/4d08bf8ca1.js" crossorigin="anonymous"></script>
+		<title></title>
+		
+		<style type="text/css">
+			*{
+				box-sizing: border-box;
+			}
+
+			body{
+				margin: 0px;
+				padding: 0px;
+			}
+			.col-1 {width: 8.33%;}
+			.col-2 {width: 16.66%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 33.33%;}
+			.col-5 {width: 41.66%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 58.33%;}
+			.col-8 {width: 66.66%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 83.33%;}
+			.col-11 {width: 91.66%;}
+			.col-12 {width: 100%;}
+
+
+			.left{
+				height: 900px;
+				position: fixed;
+				background-color: red;
+				padding: 50px 30px;
+			}
+
+			.right{
+				height: 670px;
+				float: right;
+				padding: 50px 50px;
+			}
+
+			.a_{
+				font-family: sans-serif;
+				color: white;
+				margin: 50px 0 100px 0;
+			}
+			.b_{
+				font-family: sans-serif;
+				font-size: 60px;
+			}
+
+			.c_{
+				color: red;
+				font-family: sans-serif;
+				font-size: 40px;
+				margin-bottom: 15px;
+			}
+
+			.sac{
+				border: 4px solid red;
+				border-radius: 4px ;
+				width: 10px;
+				padding: 1px 25px;
+				margin-bottom: 20px;
+			}
+
+			li{
+				list-style-type: none;
+				color: white;
+				font-size: 20px;
+				font-family: sans-serif;
+				margin-bottom: 15px;
+			}
+			.imgParent{
+				float: left;
+				padding: 5px;
+                height: 100%;
+                /* width: 100%; */
+			}
+			.hiddenNav{
+				background-color: dodgerblue;
+				display: none;
+			}
+			p{
+				font-family: sans-serif;
+
+			}
+			img{
+				width: 100%;
+                height: 100%;
+			}
+
+
+			@media only screen and (max-width: 700px){
+				.left{
+					display: none;
+				}
+				.a_{
+					display: inline;
+				}
+
+				i{
+					padding: 10px;
+				}
+				.right{
+					width: 100%;
+					padding: 10px 10px;
+				}
+				.hiddenNav{
+					display: block;
+					width: 100%;
+					background-color: red;
+					height: 60px;
+					position: fixed;
+				}
+
+				.dropdown {
+				  position: relative;
+				  display: inline-block;
+				}
+
+				.dropdown-content {
+				  display: none;
+				  position: absolute;
+				  background-color: #f9f9f9;
+				  min-width: 160px;
+				  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				  padding: 12px 16px;
+				  z-index: 1;
+                  height: 600px;
+				}
+
+				.dropdown:hover .dropdown-content {
+				  display: block;
+				}
+
+				.left_{
+					height: 670px;
+					position: fixed;
+					background-color: red;
+					padding: 50px 30px;
+				}
+			}
+				b:hover{
+					color: rgb(0, 0, 0);
+				}
+
+		</style>
+	</head>
+	
+	<body>
+
+		<div class="hiddenNav">
+			<div class="dropdown">
+				
+				<i style="font-size: 30px; color: white;" class="fa fa-bars"></i>
+				<h2 class="a_">Black n Proud Company </h2>
+					
+
+				<div class="col-6 left_ dropdown-content">
+
+					<li><b>home</b></li>
+					<li><b>showcase</b></li>
+					<li><b>service</b></li>
+					<li><b>Designers</b></li>
+					<li><b>Package</b></li>
+					<li><b>Contact</b></li>
+
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="col-3 left">
+
+
+			<h2 class="a_">Black n Proud <br> Company </h2>
+			<li><b>home</b></li>
+			<li><b>showcase</b></li>
+			<li><b>service</b></li>
+			<li><b>Designers</b></li>
+			<li><b>Package</b></li>
+			<li><b>Contact</b></li>
+
+		</div>
+
+
+
+		<div class="col-9 right">
+			
+			<h1 class="b_">Fashion Design</h1>
+			<h3 class="c_">Showcase.</h3>
+			<div class="sac"></div>
+
+
+			<div class="col-6 imgParent">
+				<img src="../Image/senso-ji-temple-1437677_1920.jpg">
+			</div>
+			<div class="col-6 imgParent">
+				<img src="../Image/edward-howell-EAWKyzfXw44-unsplash.jpg">
+			</div><div class="col-6 imgParent">
+				<img src="../Image/airport-2373727_1920.jpg">
+			</div><div class="col-6 imgParent">
+				<img src="../Image/pexels-quang-viet-nguyen-12592918.jpg">
+			</div><div class="col-6 imgParent">
+				<img src="../Image/rose-165819_1920.jpg">
+			</div><div class="col-6 imgParent">
+				<img src="../Image/brecht-corbeel-zRKrgthqjOA-unsplash.jpg">
+			</div>
+
+			<h3 class="c_" >Services.</h3>
+			<div class="sac"></div>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+
+		</div>
+
+
+	</body>
+</html>

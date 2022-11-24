@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+       
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        .picdiv{
+            border: 1px solid ;
+            height: 650px;
+            float: left;
+            background-image: url(../Image/kyoto-2315428.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .formdiv{
+            padding-top: 15%;
+            height: 650px;
+            float: left;
+            border: 1px solid;
+            background-color: #1a1a1a;
+        }
+        form{
+            margin: auto;
+        }
+        input{
+            width: 100%;
+            border: 1px solid green;
+            padding: 10px 0px;
+            margin: 10px 0px;
+            font-size: 15px;
+        }
+        h1{
+            font-family: sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 45px;
+        }
+        span{
+            color: green;
+            text-align: center;
+        }
+        a{
+            color: white;
+            text-align: center;
+            display: block;
+            font-size: 10px;
+        }
+        .sp{
+            color: green;
+            text-align: center;
+            font-size: 10px;
+            display: block;
+        }
+        p{
+            color: lightgray;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .btn{
+            background-color: green;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        @media only screen and (max-width:700px) {
+            .picdiv{
+                display: none;
+            }
+            .formdiv{
+                width: 100%;
+                background-image: url(../Image/airport-2373727_1920.jpg);
+                opacity: 0.9;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="picdiv col-5"></div>
+    <div class="formdiv col-7">
+
+        <h1>MEMBER <span>LOGIN</span></h1>
+
+        <p>SEND RECEIVE AND SECURELY STORE YOUR COINS IN YOUR WALLET</p>
+
+        <form class="formsection col-8">
+            <input type="email" placeholder="Email">
+            <input placeholder="Password" type="password">
+            <input class="btn" type="submit" value="LOGIN">
+        </form>
+
+        <a href="">DON'T HAVE AN ACCOUNT? <span>REGISTER NOW</span></a> <br>
+        <span class="sp">Forgot Password</span>
+    </div>
+</body>
+</html>
